@@ -12,3 +12,8 @@ end
 times_nine = call_twice(triple)
 
 print(tostring(times_nine(5)))
+
+--[[
+Will only let you print strings.
+Parens are necessary for calling functions.
+--]]

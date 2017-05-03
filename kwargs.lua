@@ -6,6 +6,7 @@ popcorn_prices{small=5.00,
 	     	   medium=7.00,
 			   jumbo=15.00}
 
+-- works with a space
 popcorn_prices {small=5.00,
 	     	    medium=7.00,
 			    jumbo=15.00}
