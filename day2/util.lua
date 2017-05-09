@@ -13,3 +13,13 @@ function table_to_string(t)
 
 	return table.concat(result, "\n")
 end
+
+function add_lulu(t)
+	local result = {}
+
+	for k, v in pairs(t) do
+		result[#result + 1] = k .. "_lulu : " .. v .. "_lulu"
+	end
+
+	return table.concat(result, "\n")
+end
